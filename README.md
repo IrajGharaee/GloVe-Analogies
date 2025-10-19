@@ -7,7 +7,7 @@ It aims to solve verbal analogy questions such as:
 
 I used a pretrained GloVE model to solve this problem.
 
-## ⚙️ Key Features
+## Key Features
 - Utilizes **pre-trained GloVe embeddings** to capture semantic and syntactic relationships between words.  
 - Computes vector relationships using the classic analogy formula:  
   > **B - A + C ≈ D**  
@@ -17,7 +17,7 @@ I used a pretrained GloVE model to solve this problem.
   - **Verb Tenses** (e.g., *walk : walked :: dance : danced*)  
   - **Irregular Verbs** (e.g., *fly : flew :: feed : fed*)  
 
-## 🧮 Methodology
+## Methodology
 1. **Load Pre-trained GloVe Model** (e.g., `wiki_giga_2024_100_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05.050_combined.txt`)  
 2. **Parse analogy dataset** (A, B, C, D format)  
 3. **Compute predicted vector:**  
